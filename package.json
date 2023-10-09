@@ -2,9 +2,10 @@
   "name": "typescript-starter",
   "version": "1.0.0",
   "description": "An starter template for NodeJS/TypeScript.",
-  "main": "index.js",
+  "main": "dist/index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup",
+    "start": "npm run build && node dist/index.mjs"
   },
   "repository": {
     "type": "git",
