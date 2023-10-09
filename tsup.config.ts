@@ -10,8 +10,4 @@ export default defineConfig({
   treeshake: true,
   dts: true,
   metafile: true,
-  async onSuccess() {
-    // Adds a new line after the build is done, so the next log is not next to the build log.
-    console.log('\n');
-  },
 });
