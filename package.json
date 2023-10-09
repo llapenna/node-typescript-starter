@@ -5,7 +5,7 @@
   "main": "dist/index.mjs",
   "scripts": {
     "build": "tsup",
-    "start": "npm run build && node dist/index.mjs"
+    "start": "npm run build && dotenv node dist/index.mjs"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/llapenna/node-typescript-starter#readme",
   "devDependencies": {
     "@types/node": "^20.8.3",
+    "dotenv-cli": "^7.3.0",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   }
