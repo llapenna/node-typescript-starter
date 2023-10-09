@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/llapenna/node-typescript-starter/issues"
   },
-  "homepage": "https://github.com/llapenna/node-typescript-starter#readme"
+  "homepage": "https://github.com/llapenna/node-typescript-starter#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "typescript": "^5.2.2"
+  }
 }
