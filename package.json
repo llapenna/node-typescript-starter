@@ -21,7 +21,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.7.2",
     "@commitlint/config-conventional": "^17.7.0",
-    "@release-it/conventional-changelog": "^7.0.2",
+    "@release-it/conventional-changelog": "7.0.0",
     "@types/node": "^20.8.3",
     "dotenv-cli": "^7.3.0",
     "husky": "^8.0.3",
