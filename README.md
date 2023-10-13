@@ -1,2 +1,3 @@
-# node-typescript-starter
+# Node Typescript Starter
+
 An starter template for NodeJS/TypeScript.
