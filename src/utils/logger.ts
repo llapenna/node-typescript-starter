@@ -1,4 +1,5 @@
 /* eslint-disable no-console */
+import { LoggerFunction } from "@/types/logger";
 
 const priorities = {
   ERROR: 3,
@@ -13,27 +14,27 @@ const prefix = (type: keyof typeof priorities) =>
  * Interface for `console.log`. Won't print on 'production' mode
  * @param args Same arguments as `console.log`
  */
-function info(...args: any[]) {
-  if (process.env.NODE_ENV !== 'production') {
-    console.log(prefix('INFO'), ...args);
+const info: LoggerFunction = (...args) => {
+  if (process.env.NODE_ENV !== "production") {
+    console.log(prefix("INFO"), ...args);
   }
-}
+};
 
 /**
  * Interface for `console.error`. Always print
  * @param args Same arguments as `console.error`
  */
-function error(...args: any[]) {
-  console.error(prefix('ERROR'), ...args);
-}
+const error: LoggerFunction = (...args) => {
+  console.error(prefix("ERROR"), ...args);
+};
 
 /**
  * Interface for `console.warn`
  * @param args Same arguments as `console.warn`
  */
-function warn(...args: any[]) {
-  console.warn(prefix('WARN'), ...args);
-}
+const warn: LoggerFunction = (...args) => {
+  console.warn(prefix("WARN"), ...args);
+};
 
 const logger = {
   info,
