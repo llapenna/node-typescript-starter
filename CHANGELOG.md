@@ -1,5 +1,17 @@
 
 
+# [1.1.0](https://github.com/llapenna/node-typescript-starter/compare/1.0.0...1.1.0) (2024-04-11)
+
+
+### Bug Fixes
+
+* rename types file extension ([1548378](https://github.com/llapenna/node-typescript-starter/commit/1548378358f4bb78969480b8710f900eb7ed17b5))
+
+
+### Features
+
+* apply logger typings to functions ([89ef1e0](https://github.com/llapenna/node-typescript-starter/commit/89ef1e06c729acd19ee37d5d97bb29fe42e34bc4))
+
 # 1.0.0 (2023-10-09)
 
 
