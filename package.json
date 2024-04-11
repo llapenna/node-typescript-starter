@@ -8,7 +8,9 @@
     "start": "npm run build && dotenv node dist/index.mjs",
     "dev": "tsup --watch --onSuccess 'node dist/index.mjs'",
     "prepare": "husky install",
-    "release": "dotenv release-it",
+    "release:major": "dotenv release-it major",
+    "release:minor": "dotenv release-it minor",
+    "release:patch": "dotenv release-it patch",
     "release:ci": "dotenv release-it --ci",
     "lint": "eslint .",
     "prettier": "prettier . --check"
