@@ -1,5 +1,12 @@
 
 
+## [1.1.1](https://github.com/llapenna/node-typescript-starter/compare/1.1.0...1.1.1) (2024-04-12)
+
+
+### Features
+
+* **logger:** change the way functions are exported ([648577c](https://github.com/llapenna/node-typescript-starter/commit/648577c35c878c59ede8527fda1717e8cbbe9846))
+
 # [1.1.0](https://github.com/llapenna/node-typescript-starter/compare/1.0.0...1.1.0) (2024-04-11)
 
 
